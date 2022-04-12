@@ -28,6 +28,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/signin.css">
 
   <script defer src="../js/common.js"></script>
 </head>
@@ -371,13 +372,33 @@
           </div>
         </li>
       </ul>
-    </div>
-    
-    <section class="signin">
-
-    </section>
-  
+    </div>  
   </header>
+
+  <section class="signin">
+    <h1>로그인</h1>
+    <div class="signin__card">
+      <h2>
+        <strong>Welcome!</strong> 스타벅스 코리아에 오신 것을 환영합니다.</h2>
+      <form>
+        <input type="text" placeholder="아이디를 입력해 주세요." />
+        <input type="password" placeholder="비밀번호를 입력해 주세요." />
+        <input type="submit" value="로그인" />
+        <p>
+          * 타사이트와 비밀번호를 동일하게 사용할 경우 도용의 위험이 있으므로,<br>
+          정기적인 비밀번호 변경을 해주시길 바랍니다.<br>
+          <br>
+          * 스타벅스 코리아의 공식 홈페이지는 Internet Explorer 9.0 이상, <br>
+          Chrome, Firefox, Safari 브라우저에 최적화 되어있습니다.
+        </p>
+      </form>
+      <div class="actions">
+        <a href="javascript:void(0)">회원가입</a>
+        <a href="javascript:void(0)">아이디 찾기</a>
+        <a href="javascript:void(0)">비밀번호 찾기</a>
+      </div>
+    </div>
+  </section>
 
 
   <!-- FOOTER -->
